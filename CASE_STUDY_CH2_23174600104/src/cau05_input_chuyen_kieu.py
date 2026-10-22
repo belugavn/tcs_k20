@@ -1,0 +1,9 @@
+ma_may = input("Nhập mã máy")
+cong_suat = input("Nhập công suất")
+so_phut_su_dung = input("Nhập số phút sử dụng")
+don_gia = input("Đơn giá")
+dien_nang_kwh = cong_suat * so_phut_su_dung / 60 / 1000
+chi_phi = dien_nang_kwh * don_gia
+cong_suat1 = float(input("Nhập công suất"))
+so_phut_su_dung1 = int(input("Nhập số phút sử dụng"))
+don_gia = float(input("Đơn giá"))
